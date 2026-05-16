@@ -18,8 +18,8 @@ one/two-page executive summary.
 - **PrOACT structure** — 10 slides: Hero, Problem, Objectives,
   Alternatives, Consequences, Tradeoffs, Recommended Path, the 60–90 Day
   Test, Decision Triggers, Final Judgment.
-- **Three.js background** — one evolving decision-node motif; pauses when
-  the tab is hidden and respects `prefers-reduced-motion`.
+- **Calm backdrop** — a static, low-contrast dark gradient that keeps
+  text fully readable (no moving particles).
 - **Navigation** — section dots, progress bar, slide counter, edge
   arrows, wheel/touch, and keyboard:
   - `→` / `↓` / `Space` — next
@@ -33,7 +33,7 @@ one/two-page executive summary.
 
 ## Tech
 
-Vite + vanilla JS + Three.js. Minimal dependencies.
+Vite + vanilla JS. Zero runtime dependencies.
 
 ## Local development
 
@@ -79,7 +79,7 @@ src/
   main.js          # app shell, navigation, language, print, keyboard
   style.css        # dark executive theme + print styles
   content.js       # all bilingual copy (single source of truth)
-  three-scene.js   # subtle evolving Three.js node network
+  three-scene.js   # backdrop controller (static gradient; no-op API)
 README.md
 ```
 

@@ -50,6 +50,18 @@ body[data-lang="zh"] {
   height: 100vh;
   z-index: 0;
   display: block;
+  background:
+    radial-gradient(
+      ellipse 90% 70% at 50% 0%,
+      rgba(155, 180, 212, 0.06),
+      rgba(7, 10, 15, 0) 60%
+    ),
+    radial-gradient(
+      ellipse 70% 60% at 50% 110%,
+      rgba(216, 181, 116, 0.045),
+      rgba(7, 10, 15, 0) 55%
+    ),
+    var(--bg);
 }
 
 #app {
