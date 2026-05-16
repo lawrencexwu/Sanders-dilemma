@@ -1,0 +1,15 @@
+{
+  "name": "sanders-dilemma",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bilingual Three.js PrOACT decision-analysis presentation: Ms. Sanders's Dilemma",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
