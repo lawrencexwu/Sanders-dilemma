@@ -63,13 +63,16 @@ export const content = {
           "“How should Sanders correct a poor role fit while protecting the office's mission, Anna's dignity, team morale, and institutional compliance?”",
         insightLabel: "Key insight",
         insight:
-          "Anna is strong in back-office administrative work but weak in front-facing interpersonal work. The issue is job fit, not personality.",
+          "Anna is strong in back-office work but weak in front-facing work. The office still needs front-desk coverage, and with no extra budget Sanders cannot simply remove Anna from people-facing duties. This is a role-fit and resource-allocation problem.",
         badFrame: "Tolerate vs. Fire",
-        goodFrame: "Restore performance + preserve fairness",
+        goodFrame: "Resource-neutral redesign + fairness",
         badFrameLabel: "Bad frame",
         goodFrameLabel: "Better frame",
+        principleLabel: "Core principle",
+        principle:
+          "Role redesign must be resource-neutral and fair to the team.",
         notes:
-          "The first move is to escape the bad frame of “tolerate or fire.”",
+          "Escape the “tolerate or fire” frame — and see this is also a resource-allocation problem with no extra budget.",
       },
       {
         kind: "objectives",
@@ -166,16 +169,17 @@ export const content = {
         kind: "recommended",
         heading: "Recommended Solution",
         main:
-          "Immediate HR consultation + factual documentation + honest conversation + role redesign or transfer + 60–90 day measurable review.",
+          "A resource-neutral hybrid: Anna keeps minimum front-desk duties, the work is standardized, the team backs only high-risk moments, and Anna takes on more back-office work to compensate — tested over 60–90 days.",
         steps: [
-          "Consult HR immediately",
-          "Gather specific evidence",
-          "Speak with Anna respectfully",
-          "Create a 60–90 day plan",
-          "Define decision triggers",
+          "Anna keeps minimum front-desk responsibilities",
+          "Standardize front-desk work: scripts, checklists, FAQs, escalation rules",
+          "Team supports only high-interaction or high-risk moments",
+          "Anna absorbs more back-office work to offset that support",
+          "Test for 60–90 days against measurable service standards",
+          "If the minimum standard is unmet, move to formal PIP or separation",
         ],
         notes:
-          "The recommendation is structured action, not avoidance and not punishment.",
+          "The recommendation is structured and resource-neutral — not avoidance, not punishment, and no new headcount.",
       },
       {
         kind: "test",
@@ -186,10 +190,13 @@ export const content = {
           ["Expense reimbursement tracking", "Anna keeps"],
           ["Database maintenance", "Anna keeps"],
           ["Scheduling support", "Anna keeps"],
-          ["Walk-in student reception", "Shared rotation or student worker"],
-          ["Employer reception", "More suitable staff member or trained front-desk support"],
-          ["General visitor greeting", "Shared front-desk protocol"],
+          ["Routine front-desk greeting & routing", "Anna, standardized via scripts & FAQs"],
+          ["High-traffic / high-risk moments", "Team backs employer visits, peak traffic, complex cases"],
+          ["Added back-office ownership", "Anna, to offset the team's front-desk support"],
         ],
+        standardTitle: "Minimum front-desk standard",
+        standard:
+          "Anna does not need to become extroverted. She must reliably and politely greet visitors, route students, answer simple questions, and escalate complex issues.",
         metricsTitle: "Performance metrics",
         metrics: [
           "No repeated student complaints",
@@ -219,12 +226,13 @@ export const content = {
       {
         kind: "final",
         heading: "Final Judgment",
-        main: "Sanders should act now, but not punitively.",
+        main:
+          "Sanders should act now — but she cannot solve this by pretending the front-desk work disappears.",
         support:
-          "She should redesign or transfer first, measure results, and only then move toward dismissal if the mismatch cannot be resolved.",
+          "With no extra budget, the practical answer is a resource-neutral redesign: Anna keeps minimum front-desk duties, the team supports only defined high-risk moments, and Anna compensates with more back-office ownership.",
         closing:
-          "Anna may be a good employee in the wrong role. Sanders's job is to test whether a better role fit exists. If it does, preserve it. If it does not, separate fairly.",
-        notes: "The final judgment is humane but disciplined.",
+          "If Anna still cannot meet the minimum people-facing standard under this improved system, then PIP or separation becomes a legitimate management decision.",
+        notes: "The final judgment is humane, disciplined, and resource-realistic.",
       },
     ],
     summary: {
@@ -232,7 +240,7 @@ export const content = {
       sections: [
         {
           h: "Core Problem",
-          b: "Not “tolerate vs. fire,” but how to correct a poor role fit while protecting the office's mission, Anna's dignity, team morale, and institutional compliance. Anna is strong in back-office administration and weak in front-facing work — this is a job-fit issue, not a personality issue.",
+          b: "Not “tolerate vs. fire.” It is a role-fit and resource-allocation problem: Anna is strong in back-office work and weak in front-facing work, the five-person office still needs front-desk coverage, and there is no extra budget — so the redesign must protect the office's mission, Anna's dignity, team morale, and compliance without adding staff or unfairly shifting the burden.",
         },
         {
           h: "Ranked Objectives",
@@ -240,7 +248,7 @@ export const content = {
         },
         {
           h: "Best Alternatives",
-          b: "A hybrid path — role redesign or internal transfer combined with documentation and a measured review — outperforms both tolerance and immediate termination.",
+          b: "A resource-neutral hybrid — standardized front-desk work, team support limited to high-risk moments, and Anna offsetting that with more back-office ownership — outperforms both tolerance and immediate termination, and adds no headcount.",
         },
         {
           h: "Key Tradeoffs",
@@ -248,11 +256,11 @@ export const content = {
         },
         {
           h: "Recommended Solution",
-          b: "Immediate HR consultation + factual documentation + honest conversation + role redesign or transfer + a 60–90 day measurable review with defined decision triggers.",
+          b: "A resource-neutral hybrid: Anna keeps minimum front-desk duties; the work is standardized with scripts, checklists, FAQs, and escalation rules; the team backs only high-interaction or high-risk moments; Anna absorbs more back-office work to offset that support; tested over 60–90 days against measurable standards with defined decision triggers.",
         },
         {
           h: "60–90 Day Action Plan",
-          b: "Anna keeps reimbursement tracking, database maintenance, and scheduling support. Walk-in student reception, employer reception, and general greeting move to shared rotation, trained front-desk support, or better-suited staff. Success is measured by no repeated complaints, no unresolved employer incidents, fast inquiry handling, sustained administrative accuracy, and no unfair burden on one colleague.",
+          b: "Anna keeps reimbursement tracking, database maintenance, and scheduling support, plus routine front-desk greeting and routing standardized via scripts and FAQs, and absorbs added back-office work. The team backs only employer visits, peak traffic, and complex cases. Minimum standard: Anna reliably and politely greets visitors, routes students, answers simple questions, and escalates complex issues. Success is measured by no repeated complaints, no unresolved employer incidents, fast inquiry handling, sustained administrative accuracy, and no unfair burden on one colleague.",
         },
         {
           h: "Decision Triggers",
@@ -260,7 +268,7 @@ export const content = {
         },
         {
           h: "Final Judgment",
-          b: "Sanders should act now, but not punitively. Redesign or transfer first, measure results, and only move toward dismissal if the mismatch cannot be resolved. Anna may be a good employee in the wrong role — preserve a better fit if one exists; if not, separate fairly.",
+          b: "Sanders should act now, but she cannot solve this by pretending the front-desk work disappears. With no extra budget, the practical answer is a resource-neutral redesign: Anna keeps minimum front-desk duties, the team supports only defined high-risk moments, and Anna compensates with more back-office ownership. If Anna still cannot meet the minimum people-facing standard under this improved system, PIP or separation becomes a legitimate management decision.",
         },
       ],
     },
@@ -318,12 +326,15 @@ export const content = {
           "「Sanders 要如何修正一個錯誤的職務適配，同時保護辦公室使命、Anna 的尊嚴、團隊士氣與學校制度合規？」",
         insightLabel: "關鍵洞察",
         insight:
-          "Anna 擅長後台行政工作，但不適合高互動性的前台工作。問題不是人格，而是職務適配。",
+          "Anna 擅長後台行政工作，但不適合高互動性的前台工作。辦公室仍需要有人處理前台互動，而在沒有額外預算下，Sanders 無法直接把 Anna 從人際工作中移除。這同時是職務適配與資源配置問題。",
         badFrame: "容忍 vs. 解僱",
-        goodFrame: "恢復績效 + 保留公平",
+        goodFrame: "人力不增加的職務重設 + 公平",
         badFrameLabel: "壞框架",
         goodFrameLabel: "好框架",
-        notes: "第一步是跳出「容忍或解僱」這個錯誤框架。",
+        principleLabel: "核心原則",
+        principle:
+          "職務重設必須在人力不增加的前提下進行，且不能對團隊不公平。",
+        notes: "跳出「容忍或解僱」框架，並看見這也是一個沒有額外預算的資源配置問題。",
       },
       {
         kind: "objectives",
@@ -416,15 +427,16 @@ export const content = {
         kind: "recommended",
         heading: "建議方案",
         main:
-          "立即諮詢 HR + 事實性紀錄 + 坦誠談話 + 職務重設或轉調 + 60–90 天可衡量檢視。",
+          "不增加人力的混合方案：Anna 保留最低前台職責，前台工作標準化，團隊只支援高風險時刻，Anna 以更多後台工作作為平衡 — 並以 60–90 天測試。",
         steps: [
-          "立即諮詢 HR",
-          "蒐集具體事實",
-          "尊重且坦誠地與 Anna 談話",
-          "建立 60–90 天方案",
-          "設定明確決策觸發條件",
+          "Anna 保留最低限度的前台職責",
+          "前台工作標準化：話術、檢查清單、FAQ、升級規則",
+          "團隊只支援高互動或高風險情境",
+          "Anna 承擔更多後台行政工作以補償該支援",
+          "以 60–90 天對照可衡量的服務標準進行測試",
+          "若仍無法達到最低標準，進入正式 PIP 或離職程序",
         ],
-        notes: "建議的核心是有結構地行動，不是逃避，也不是懲罰。",
+        notes: "建議是有結構且不增加人力的 — 不是逃避，不是懲罰，也不增加編制。",
       },
       {
         kind: "test",
@@ -435,10 +447,13 @@ export const content = {
           ["費用報銷追蹤", "Anna 保留"],
           ["資料庫維護", "Anna 保留"],
           ["排程支援", "Anna 保留"],
-          ["學生臨櫃接待", "輪值或學生工讀生支援"],
-          ["企業雇主接待", "更適合的同事或受訓前台支援"],
-          ["一般訪客問候", "共享前台接待流程"],
+          ["例行前台問候與引導", "Anna，以話術與 FAQ 標準化"],
+          ["高流量／高風險時刻", "團隊支援企業來訪、尖峰時段、複雜個案"],
+          ["增加的後台職責", "Anna，用以補償團隊的前台支援"],
         ],
+        standardTitle: "最低前台標準",
+        standard:
+          "Anna 不需要變得外向。但她必須能禮貌且穩定地完成問候、引導學生、回答簡單問題，並將複雜問題升級給合適同事。",
         metricsTitle: "績效衡量指標",
         metrics: [
           "不再出現重複性的學生抱怨",
@@ -467,12 +482,12 @@ export const content = {
       {
         kind: "final",
         heading: "最終判斷",
-        main: "Sanders 應該立刻行動，但不應以懲罰為出發點。",
+        main: "Sanders 應該立刻行動，但不能用假裝前台工作消失的方式解決問題。",
         support:
-          "她應該先嘗試職務重設或轉調，衡量結果後，若仍無法解決適配問題，再走向解僱程序。",
+          "在沒有額外預算下，務實答案是不增加人力的職務重設：Anna 保留最低前台職責，團隊只支援明確定義的高風險時刻，而 Anna 以更多後台工作作為平衡。",
         closing:
-          "Anna 可能不是壞員工，而是被放在錯誤位置的好員工。Sanders 的任務，是測試是否存在更好的職務適配。如果有，就保留；如果沒有，就公平分手。",
-        notes: "最終判斷要有人性，但也要有紀律。",
+          "如果 Anna 在改善後的系統下仍無法達到最低人際互動標準，那麼 PIP 或離職程序就會成為合理的管理決策。",
+        notes: "最終判斷要有人性、有紀律，也要符合資源現實。",
       },
     ],
     summary: {
@@ -480,7 +495,7 @@ export const content = {
       sections: [
         {
           h: "核心問題",
-          b: "不是「容忍 vs. 解僱」，而是如何修正錯誤的職務適配，同時保護辦公室使命、Anna 的尊嚴、團隊士氣與學校制度合規。Anna 擅長後台行政、不適合前台互動 — 這是職務適配問題，不是人格問題。",
+          b: "不是「容忍 vs. 解僱」，而是職務適配與資源配置問題：Anna 擅長後台、不適合前台互動，五人辦公室仍需要前台覆蓋，且沒有額外預算 — 因此職務重設必須在不增加人力、不對團隊不公平的前提下，保護辦公室使命、Anna 的尊嚴、團隊士氣與制度合規。",
         },
         {
           h: "目標排序",
@@ -488,7 +503,7 @@ export const content = {
         },
         {
           h: "最佳選項",
-          b: "混合路徑 — 職務重設或內部轉調，搭配事實紀錄與可衡量檢視 — 優於單純容忍，也優於立即解僱。",
+          b: "不增加人力的混合方案 — 前台工作標準化、團隊支援僅限高風險時刻、Anna 以更多後台職責作為平衡 — 優於單純容忍，也優於立即解僱，且不增加編制。",
         },
         {
           h: "關鍵取捨",
@@ -496,11 +511,11 @@ export const content = {
         },
         {
           h: "建議方案",
-          b: "立即諮詢 HR + 事實性紀錄 + 坦誠談話 + 職務重設或轉調 + 設定明確觸發條件的 60–90 天可衡量檢視。",
+          b: "不增加人力的混合方案：Anna 保留最低前台職責；前台工作以話術、檢查清單、FAQ 與升級規則標準化；團隊只支援高互動或高風險時刻；Anna 承擔更多後台工作以補償該支援；以 60–90 天對照可衡量標準測試，並設定明確決策觸發條件。",
         },
         {
           h: "60–90 天行動計畫",
-          b: "Anna 保留報銷追蹤、資料庫維護與排程支援。學生臨櫃接待、企業雇主接待與一般問候改為輪值、受訓前台支援或更適合的同事。成功的衡量：不再有重複抱怨、不再有未處理的企業接待問題、詢問快速處理、行政準確度維持、無單一同事承擔不公平負擔。",
+          b: "Anna 保留報銷追蹤、資料庫維護、排程支援，並以話術與 FAQ 標準化例行前台問候與引導，且承擔增加的後台工作。團隊只支援企業來訪、尖峰時段與複雜個案。最低標準：Anna 能禮貌且穩定地完成問候、引導學生、回答簡單問題並升級複雜問題。成功的衡量：不再有重複抱怨、不再有未處理的企業接待問題、詢問快速處理、行政準確度維持、無單一同事承擔不公平負擔。",
         },
         {
           h: "決策觸發條件",
@@ -508,7 +523,7 @@ export const content = {
         },
         {
           h: "最終判斷",
-          b: "Sanders 應立刻行動，但不以懲罰為出發點。先重設或轉調、衡量結果，若仍無法解決適配問題再走向解僱。Anna 可能是被放錯位置的好員工 — 若有更好的適配就保留；若沒有，就公平分手。",
+          b: "Sanders 應立刻行動，但不能用假裝前台工作消失的方式解決問題。在沒有額外預算下，務實答案是不增加人力的職務重設：Anna 保留最低前台職責，團隊只支援明確定義的高風險時刻，Anna 以更多後台工作作為平衡。如果在改善後的系統下仍無法達到最低人際互動標準，PIP 或離職程序就是合理的管理決策。",
         },
       ],
     },

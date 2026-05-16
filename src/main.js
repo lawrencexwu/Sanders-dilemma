@@ -70,6 +70,12 @@ function slideProblem(s) {
   good.appendChild(el("strong", null, s.goodFrame));
   frames.append(bad, good);
   w.appendChild(frames);
+  if (s.principle) {
+    const pr = el("div", "principle");
+    pr.appendChild(el("span", "principle-label", s.principleLabel));
+    pr.appendChild(el("p", null, s.principle));
+    w.appendChild(pr);
+  }
   return w;
 }
 
@@ -187,6 +193,12 @@ function slideTest(s) {
   right.appendChild(m);
   cols.append(left, right);
   w.appendChild(cols);
+  if (s.standard) {
+    const st = el("div", "insight");
+    st.appendChild(el("span", "insight-label", s.standardTitle));
+    st.appendChild(el("p", null, s.standard));
+    w.appendChild(st);
+  }
   return w;
 }
 
